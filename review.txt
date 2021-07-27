@@ -6,11 +6,16 @@ git add 添加至暂存区
 git commit 提交至仓库
 git log   git reflog  git log --oneline(单行显示) 查看历史
 git diff 比较
+git merge [分支名]  将该分支内容合并至当前所在分支
 git clone [地址]  将远程仓库克隆至本地
 git push [地址] [分支名]  推送至远程仓库某分支
 git remote add origin [地址] 给地址添加别名origin
 git remote -v 查看别名
 git branch [分支名]  创建分支
 git branch -v 查看分支
+git checkout [分支名] 切换分支
+git fetch origin [分支名]  拉取分支(只拉取未合并)
+git pull origin [分支名]  拉取远程库(pull=fetch+merge)
+
 
 
